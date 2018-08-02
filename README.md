@@ -1,7 +1,9 @@
-create_inventory
+Create_Inventory_with_Ansible
 =========
 
 This role is used to create inventory file from the list of target nodes. Which can be directly imported into Xcel Sheets. Contains the details of the form:
+
+
 
 
 Requirements
@@ -46,7 +48,7 @@ Sample playbook leveraging this role:
       	    - inventory_location: /data
               inventory_filename: Inventory
     	  roles:
-      	    - create_inventory
+      	    - Create_Inventory_with_Ansible
 
 
 License
