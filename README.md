@@ -30,10 +30,6 @@ Role Variables
 2. Specify the name of the inventory file to be created
 
 	        inventory_filename: Inventory
-Dependencies
-------------
-
-None
 
 Example Playbook
 ----------------
@@ -50,6 +46,10 @@ Sample playbook leveraging this role:
     	  roles:
       	    - Create_Inventory_with_Ansible
 
+Dependencies
+------------
+
+None
 
 License
 -------
