@@ -1,4 +1,4 @@
-Role Name
+create_inventory
 =========
 
 This role is used to create inventory file from the list of target nodes. Which can be directly imported into Xcel Sheets. Contains the details of the form:
@@ -11,8 +11,8 @@ Requirements
 
 Here are the steps to install the Ansible on Ubuntu 14.04 LTS:
 
-sudo apt-add-repository -y ppa:ansible/ansible
-sudo apt-get update
+sudo apt-add-repository -y ppa:ansible/ansible  
+sudo apt-get update  
 sudo apt-get install -y ansible
 
 
@@ -57,7 +57,7 @@ BSD
 Author Information
 ------------------
 
-Amaan Khan 
-Email: Amaan.ngp@gmail.com
-LinkedIN: https://www.linkedin.com/in/amaan-khan-linux-ninja/
-Twitter: @Amaankhan4you
+Amaan Khan  
+Email: Amaan.ngp@gmail.com  
+LinkedIN: https://www.linkedin.com/in/amaan-khan-linux-ninja/  
+Twitter: @Amaankhan4you  
