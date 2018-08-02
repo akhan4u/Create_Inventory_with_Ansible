@@ -3,7 +3,7 @@ Create_Inventory_with_Ansible
 
 This role is used to create inventory file from the list of target nodes. Which can be directly imported into Xcel Sheets. Contains the details of the form:
 
-
+![alt text](https://github.com/akhan4u/Create_Inventory_with_Ansible/blob/master/AnsibleInventory.png)
 
 
 Requirements
@@ -13,9 +13,9 @@ Requirements
 
 Here are the steps to install the Ansible on Ubuntu 14.04 LTS:
 
-sudo apt-add-repository -y ppa:ansible/ansible  
-sudo apt-get update  
-sudo apt-get install -y ansible
+	sudo apt-add-repository -y ppa:ansible/ansible  
+	sudo apt-get update  
+	sudo apt-get install -y ansible
 
 
 2. Requires 'gather_facts' to be set to 'yes' to collect the various facts about the system for generating the inventory.
